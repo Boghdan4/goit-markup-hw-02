@@ -1,20 +1,24 @@
 body{
     font-family:  'Roboto',sans-serif;
+    color: #434455 ;
+    background-color: #ffffff ;
+}
+:root{
+color:#434455;
 }
 .logo-link{
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
+color: #4d5ae5 ;
     
 }
-.logo-link span{
+.span{
     color: #2e2f42;
 }
 .nav-link {
@@ -32,7 +36,7 @@ color: #2E2F42;
 }
 .link:hover {
     color: #4d5ae5;
-}
+} 
 .link:focus {
     color: #4d5ae5;
 }
@@ -47,3 +51,93 @@ font-style: normal;
     letter-spacing: 0.02em;
     color: #434455;
     }
+.section{
+    background-color: #2E2F42;
+}
+.title{
+    font-family: 'Roboto';
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.btn{
+    background: #4D5AE5;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer 
+}
+.btn:hover{
+    color: #404BBF;
+}
+.btn:focus{
+    color: #404BBF;
+}
+.section-content{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.section-content-text{
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.section-img-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-transform: capitalize;
+}
+    .section-team{
+        background-color: #F4F4FD;
+
+    }
+    .team-title{
+        font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+    }
+    .section-team{
+        background-color: #FFFFFF;
+    }
+    .name{
+        font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+    }
+    .job-title{
+        line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+    }
+    .footer{
+        background-color: #2E2F42;
+    }
+.logo-link-span{
+    color: #F4F4FD;
+}
+.footer-text{
+    line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+
+}
