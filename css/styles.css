@@ -11,16 +11,39 @@ body{
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #0b0d1f;
+color: #4d5ae5;
     
 }
-.span{
-    color: #2E2F42;
+.logo-link span{
+    color: #2e2f42;
 }
-.nav-link{
+.nav-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration:none
+}
+.link:hover {
+    color: #4d5ae5;
+}
+.link:focus {
+    color: #4d5ae5;
+}
+address{
+font-style: normal;
+}
+.address-item{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
