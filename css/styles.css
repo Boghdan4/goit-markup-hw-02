@@ -7,6 +7,7 @@ body{
 --primary-font:'Roboto',sans-serif;
 --primary-black-color:#404bbf ;
 --primary-white-color:#ffffff;
+--font-color: #434455;
 }
 .logo-link{
     font-family: 'Raleway',sans-serif;
@@ -48,13 +49,14 @@ color: #2E2F42;
 address{
 font-style: normal;
 }
+
 .phone{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-black-color);
+    color: var(--font-color);
     }
 .section{
     background-color: #2E2F42;
@@ -80,7 +82,7 @@ cursor: pointer
 }
 .btn :focus
 .btn :hover {
-    background-color: #404BBF;   
+    background-color:var(--primary-black-color);   
 }
 .section-content{
     font-family: 'Roboto',sans-serif;
@@ -106,13 +108,10 @@ background-color: #FFFFFF;
     color: #2E2F42;
     text-transform: capitalize;
 }
-    .section-team{
-        background-color: #F4F4FD;
-
-    }
     .team-title{
-        font-size: 36px;
-line-height: 1.11;
+        font-weight: 500;
+        font-size: 20px;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -120,6 +119,9 @@ color: #2E2F42;
     }
     .section-team{
         background-color: #F4F4FD;
+    }
+    .section-team-list{
+        background-color: #FFFFFF;
     }
     .name{
         font-weight: 500;
