@@ -81,8 +81,10 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer 
 }
-.btn :focus
-.btn :hover {
+button:focus{
+   background-color:  #404BBF;
+}
+button:hover {
     background-color: #404BBF;   
 }
 .section-content{
