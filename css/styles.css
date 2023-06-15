@@ -44,7 +44,7 @@ address{
 font-style: normal;
 }
 .address-item{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -55,7 +55,7 @@ font-style: normal;
     background-color: #2E2F42;
 }
 .title{
-    font-family: 'Roboto';
+    font-family: 'Roboto'sans-serif;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -64,7 +64,7 @@ color: #FFFFFF;
 }
 .btn{
     background: #4D5AE5;
-    font-family: 'Roboto';
+    font-family: 'Roboto'sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -81,7 +81,7 @@ cursor: pointer
     color: #404BBF;
 }
 .section-content{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -115,7 +115,7 @@ text-transform: capitalize;
 color: #2E2F42;
     }
     .section-team{
-        background-color: #FFFFFF;
+        background-color: #F4F4FD;
     }
     .name{
         font-weight: 500;
@@ -139,5 +139,24 @@ color: #434455;
     line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
-
+}
+.filters-btn{
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color:#4d5ae5 ;
+background-color: #F4F4FD;
+cursor: pointer 
+}
+.filters-btn:hover{
+    color: #FFFFFF;
+    background-color: #404BBF
+}
+.filters-btn:focus{
+    color: #FFFFFF;
+    background-color: #404BBF
 }
