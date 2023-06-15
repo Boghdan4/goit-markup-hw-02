@@ -1,10 +1,12 @@
 body{
-    font-family:  'Roboto',sans-serif;
+    font-family: var(--primary-font);
     color: #434455 ;
     background-color: #ffffff ;
 }
 :root{
-color:#434455;
+--primary-font:'Roboto',sans-serif;
+--primary-black-color:#404bbf ;
+--primary-white-color:#ffffff;
 }
 .logo-link{
     font-family: 'Raleway',sans-serif;
@@ -12,7 +14,6 @@ color:#434455;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5 ;
@@ -34,22 +35,26 @@ color: #2E2F42;
 .link{
     text-decoration:none
 }
-.link:hover {
-    color: #4d5ae5;
-} 
+.link:hover,
 .link:focus {
     color: #4d5ae5;
+}
+.nav-link .address-item:hover
+.nav-link .address-item:focus
+{
+   color:  #404bbf;
+
 }
 address{
 font-style: normal;
 }
-.address-item{
+.phone{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--primary-black-color);
     }
 .section{
     background-color: #2E2F42;
@@ -63,22 +68,19 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .btn{
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer 
 }
-.btn:hover{
-    color: #404BBF;
-}
-.btn:focus{
-    color: #404BBF;
+.btn :focus
+.btn :hover {
+    background-color: #404BBF;   
 }
 .section-content{
     font-family: 'Roboto',sans-serif;
@@ -90,10 +92,11 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .section-content-text{
-    font-size: 16px
+    font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+background-color: #FFFFFF;
 }
 .section-img-title{
     font-size: 36px;
@@ -146,7 +149,6 @@ color: #F4F4FD;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color:#4d5ae5 ;
