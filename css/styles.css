@@ -83,7 +83,7 @@ cursor: pointer
 }
 .btn :focus
 .btn :hover {
-    background-color:var(--primary-black-color);   
+    background-color: #404BBF;   
 }
 .section-content{
     font-family: 'Roboto',sans-serif;
@@ -129,8 +129,8 @@ color: #2E2F42;
     text-transform: capitalize;
     color:var(--title-color)
 }
-    }
-    .section-team{
+    .section-team
+    {
         background-color: #F4F4FD;
     }
     .name{
