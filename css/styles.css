@@ -8,6 +8,7 @@ body{
 --primary-black-color:#404bbf ;
 --primary-white-color:#ffffff;
 --font-color: #434455;
+--title-color:#2E2F42;
 }
 .logo-link{
     font-family: 'Raleway',sans-serif;
@@ -108,6 +109,9 @@ background-color: #FFFFFF;
     color: #2E2F42;
     text-transform: capitalize;
 }
+.section-team-item{
+    background-color: #FFFFFF;
+}
     .team-title{
         font-weight: 500;
         font-size: 20px;
@@ -116,12 +120,17 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
+.teacher-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--title-color)
+}
     }
     .section-team{
         background-color: #F4F4FD;
-    }
-    .section-team-list{
-        background-color: #FFFFFF;
     }
     .name{
         font-weight: 500;
